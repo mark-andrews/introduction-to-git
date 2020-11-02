@@ -41,7 +41,7 @@ We'll see what version control software is, and why it is vital for long term ma
 We'll see how the Git version control software works. By understanding some of the design principles of Git and some of its internal mechanics, it makes it easier to understand how Git works in practice.
 Finally, we will look at GitHub, which is now an extremely popular Git repository hosting site.
 GitHub does not have to be used when using Git, and we will mention some alternatives for remote hosting, but it is an extremely good option, especially for open source (open science) projects.
-Topic 2: *Using Git with RStudio*. Git can be used internally in RStudio using a graphical user interface (GUI). While ultimately it is far more powerful and efficient to learn Git commands that are issued in a Git shell, when RStudio users are learning Git for the first time, it is helpful to start with the Git GUI in RStudio. This will allow us to perform all the major Git operations and also interface with GitHub.
+ * Topic 2: *Using Git with RStudio*. Git can be used internally in RStudio using a graphical user interface (GUI). While ultimately it is far more powerful and efficient to learn Git commands that are issued in a Git shell, when RStudio users are learning Git for the first time, it is helpful to start with the Git GUI in RStudio. This will allow us to perform all the major Git operations and also interface with GitHub.
 
 ## Day 2
 
