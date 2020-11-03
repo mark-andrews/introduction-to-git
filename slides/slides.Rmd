@@ -55,6 +55,20 @@ knitr::opts_chunk$set(echo = T, warning = FALSE, message = FALSE)
   * Even for individuals, it allows for efficient and organized development.
   * And it is (almost) endlessly fault tolerant. So long as there is one clone somewhere, the entire project and its version history is preserved entirely.
 
+# What should we (academics, researchers, scientists) care?
+
+* The minimal requirements for project development for individuals or small teams.
+  * One *single source of truth*.
+  * All past versions are stored; allowing for indefinite undoing.
+  * Parallel development.
+* In addition, Git provides
+  * A development log
+  * Nonlinear workflows.
+  * Robustness and fault toleration.
+  * Multiple remote server options.
+  * Free and open source and cross platform.
+  * The *de facto* standard for version control.
+
 # Git: Tiny tutorial
 
 - Start by cloning a remote repository:
