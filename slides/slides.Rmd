@@ -12,8 +12,6 @@ output:
    in_header: slides_preamble.tex
 ---
 
-
-
 ```{r setup, include=FALSE, message=FALSE}
 knitr::opts_chunk$set(echo = T, warning = FALSE, message = FALSE)
 ```
@@ -32,9 +30,9 @@ knitr::opts_chunk$set(echo = T, warning = FALSE, message = FALSE)
 # How Git works internally (very briefly)
 
 * Git works on whole "projects", which are simply directories, not individual files.
-* Each project is completely independent of every other. 
+* Each project is completely self-contained, and completely independent of every other. 
 * It keeps a "snapshot" of the state of the project as it develops. These are *commits*.
-* Git copies every version of every file in every commit. Calculates its sha-1 hash. Compresses it. Names it by its has. These are known as *blobs*. 
+* Git copies every version of every file in every commit. Calculates its sha-1 hash. Compresses it. Names it by its hash. These are known as *blobs*. 
 * It creates a hash tree (Merkle tree) from the files in each commit (the *tree object*). 
 * Each commit stores the tree hash, parent commit, author info, log message, etc, and calculate it sha-1 hash.
 
