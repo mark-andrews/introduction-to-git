@@ -45,15 +45,15 @@ knitr::opts_chunk$set(echo = T, warning = FALSE, message = FALSE)
 * Usually developers use a *remote* host with a "bare" repository, clone it, develop locally, *commit* and then *push* back to and *pull* from the remote host. The *push* and *pull* are merges.
 * GitHub is one of the most widely used hosting sites (but there are others, e.g. BitBucket; and running your own git hosting server is simple and inexpensive).
 
-# What should we (academics, researchers, scientists) care?
+<!-- # What should we (academics, researchers, scientists) care? -->
 
-* Git (and a Git server) provides a means of sharing your *research compendium* and its updates, and this can be done from the beginning of the research and continually throughout its entire development.
-* Sharing can be with the public or just with collaborators
-* But it's not just another "dropbox": It is a decentralized version control system. 
-  * It allows open, distributed, collaborative development of research and data analysis code, like the open source development model for software generally.
-  * Even for small teams, it provides a means for efficient and organized development of source code, including (and especially) for writing the source code for our articles, slides, etc (no more of this: http://phdcomics.com/comics/archive_print.php?comicid=1531). 
-  * Even for individuals, it allows for efficient and organized development.
-  * And it is (almost) endlessly fault tolerant. So long as there is one clone somewhere, the entire project and its version history is preserved entirely.
+<!-- * Git (and a Git server) provides a means of sharing your *research compendium* and its updates, and this can be done from the beginning of the research and continually throughout its entire development. -->
+<!-- * Sharing can be with the public or just with collaborators -->
+<!-- * But it's not just another "dropbox": It is a decentralized version control system.  -->
+<!--   * It allows open, distributed, collaborative development of research and data analysis code, like the open source development model for software generally. -->
+<!--   * Even for small teams, it provides a means for efficient and organized development of source code, including (and especially) for writing the source code for our articles, slides, etc (no more of this: http://phdcomics.com/comics/archive_print.php?comicid=1531).  -->
+<!--   * Even for individuals, it allows for efficient and organized development. -->
+<!--   * And it is (almost) endlessly fault tolerant. So long as there is one clone somewhere, the entire project and its version history is preserved entirely. -->
 
 # What should we (academics, researchers, scientists) care?
 
