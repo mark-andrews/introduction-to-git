@@ -47,3 +47,6 @@ GitHub does not have to be used when using Git, and we will mention some alterna
 
 * Topic 3: *Using Git on the command line*. In this section, we will learn all the major Git commands and use them in a terminal (e.g. MacOS terminal, Git bash shell on Window, or a Linux terminal, depending on platform; all of which can also be used in the *Terminal* pane in RStudio). We will cover initializing Git repositories (`git init`) and cloning existing ones (`git clone`); staging (`git add`) and committing new files or modified files to the repository (`git commit`); writing commit messages; pushing (`git push`) and pulling (`git pull`) to and from remote repositories; checking out previous versions of the repository (`git checkout`); resetting or reverting to a previous state of the repository (`git reset`, `git revert`); branching (`git branch`) and merging (`git merge`) and rebasing (`git rebase`).
 The last of these topics, i.e. branching, merging, rebasing etc, describes some especially powerful features of Git, but ones that are vital for long term and complex projects, especially those involving multiple collaborators.
+
+
+November 4, 2020
